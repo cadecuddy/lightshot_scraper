@@ -58,6 +58,6 @@ def main():
             deadlinks += 1
         # Slight delay to prevent lightshot blacklisting
         sleep(.5)
-    print("DONE | " + downloads + " images downloaded with " + str(deadlinks) + " dead links.")
+    print("DONE | " + str(int(downloads)-dl) + " images downloaded with " + str(deadlinks) + " dead links.")
 
 main()
