@@ -50,8 +50,8 @@ class LightshotExplorer:
 def main():
     downloads = input("How many attempts? ")
     deadlinks = 0
+    explorer = LightshotExplorer()
     for i in range(int(downloads)):
-        explorer = LightshotExplorer()
         link = explorer.generate_link()
         dl = explorer.download_img(link)
         if dl == 1:
