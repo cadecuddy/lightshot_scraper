@@ -11,7 +11,8 @@ class LightshotExplorer:
 
     def generate_link(self):
         # A random lightshot link is generated from 5 lowercase letters and a number
-        link = ''.join(random.choice(string.ascii_lowercase) for s in range(5)) + str(random.randint(0,10))
+        link = ''.join(random.choice(string.ascii_lowercase)
+                       for s in range(5)) + str(random.randint(0, 10))
         # Shuffles the above sequence so a static formula isn't always used
         sr = ''.join(random.sample(link, 6))
         return "https://prnt.sc/" + sr
@@ -58,6 +59,8 @@ def main():
             deadlinks += 1
         # Slight delay to prevent lightshot blacklisting
         sleep(.5)
-    print("DONE | " + str(int(downloads)-deadlinks) + " images downloaded with " + str(deadlinks) + " dead links.")
+    print("DONE | " + str(int(downloads)-deadlinks) +
+          " images downloaded with " + str(deadlinks) + " dead links.")
+
 
 main()
