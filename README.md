@@ -2,7 +2,7 @@
 
 ## Introduction
 A popular image sharing/screenshot creating software, [Lightshot](https://app.prntscr.com/en/index.html), hosts images in urls in a sequence of 6 characters made up of ascii lettersa and integers. 
-Now, this means that it's incredibly incrediblely easy to bruteforce these url endings and find publically hosted images that were uploaded by random users across the internet. This script enables its user to do so. This tool's intent is image set generation.
+Now, this means that it's incredibly incrediblely easy to bruteforce these url endings and find publically hosted images that were uploaded by random users across the internet. This script enables its user to do so. This tool's intent is easy image set generation.
 
 ## Parameters & Requirements
 The requirements of the script can be found in the **requirements.txt**. Once prereqs are installed, the script runs entirely in the command line. 
