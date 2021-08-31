@@ -10,4 +10,4 @@ Run the script in the script's main directory with ``` python lightshot_explorer
 
 From there it'll ask how many attempts at link generation/downloading you want, and it'll perform them in real time until completition
 
-**DISCLAIMER: There's no way of knowing what pictures will be downloaded as the links are randomly generated. Run this tool at your own risk. This tool's intent is image set generation**
+**DISCLAIMER: There's no way of knowing what pictures will be downloaded as the links are randomly generated. Run this tool at your own risk. This tool's intent is image set generation.**
