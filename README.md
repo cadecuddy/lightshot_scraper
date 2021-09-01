@@ -1,7 +1,7 @@
 # lightshot_scraper
 
 ## Introduction
-A popular image sharing/screenshot creating software, [Lightshot](https://app.prntscr.com/en/index.html), hosts images in urls in a sequence of 6 characters made up of ascii lettersa and integers. 
+A popular image sharing/screenshot creating software, [Lightshot](https://app.prntscr.com/en/index.html), hosts images in urls in a sequence of 6 characters made up of ascii letters and integers. 
 Now, this means that it's incredibly incrediblely easy to bruteforce these url endings and find publically hosted images that were uploaded by random users across the internet. This script enables its user to do so. This tool's intent is easy image set generation.
 
 ## Parameters & Requirements
